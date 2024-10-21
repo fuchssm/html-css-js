@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterando conteúdo com js</title>
+</head>
+<body>
+    
+    <h1>Mudar texto inicial</h1>
+    <button onclick="mudarConteudo()">Mudar conteúdo</button>
+    <button onclick="voltarConteudo()">Voltar conteúdo</button>
+    <br>
+
+    <p id="paragrafo">Este é um paragrafo</p>
+    <button onclick="mudarEstilo()">Mudar estilo</button>
+    <br>
+
+    <ul id="lista">
+        <li>Item 1</li>
+        <li>Item 2</li>
+
+    </ul>
+    <button onclick="adicionarItem()">Adicionar Item</button>
+    <button onclick="removerItem()">Remover Item</button>
+    <br><br>
+
+    <form onsubmit="return validarFormulario()">
+        Nome: <input type="text" id="nome">    <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+<br>
+    <img id="imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRimxeLk-fpbEdSEmwOr-sLftFGUBJdXBI1KNtQ0jQ1nUrnoWYqVJ33adnRm5liXQvMAY&usqp=CAU" width= "200px" alt="">
+    <button onclick="trocarImagem()">Trocar imagem</button>
+
+</body>
+
+        <script src="./script.js"></script>
+
+</html>    
+
+

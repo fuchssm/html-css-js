@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <BUtton onclick="corVerde()">VERDE</BUtton>
+    <BUtton onclick="corAzul()">AZUL</BUtton>
+    <BUtton onclick="corRosa()">ROSA</BUtton>
+    <BUtton onclick="corRoxo()">ROXO</BUtton>
+    <button onclick="corTexto()">corTexto</button>
+    <p>mude a cor do texto</p>
+
+</body>
+
+<script>
+    function corVerde() {
+        document.body.style.backgroundColor = 'green';
+    
+    }
+    function corAzul() {
+        document.body.style.backgroundColor = 'blue';
+    
+    }
+    function corRosa() {
+        document.body.style.backgroundColor = 'pink';
+    
+    }
+    function corRoxo() {
+        document.body.style.backgroundColor = 'purple';
+    
+    }
+    function corTexto() {
+        document.getElementById('texto').style.color = 'blue';
+    }
+    
+</script>
+</html>

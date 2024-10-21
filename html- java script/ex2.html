@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudar cor de fundo do site</title>
+</head>
+<body>
+        <button onclick="mudarCorFundo()"> Mudar cor de fundo</button>
+</body>
+
+<script>
+    function mudarCorFundo(){
+    let cores = [
+        'lightblue',
+        'lightgreen',
+        'lightpink',
+        'lightyellow'
+    ];
+        let corAleatoria = cores[Math.floor(Math.random()*
+        cores.length )];
+        document.body.style.backgroundColor = corAleatoria;
+}
+</script>
+</html>
